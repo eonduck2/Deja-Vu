@@ -10,7 +10,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:qwik/recommended",
   ],
-  ignorePatterns: ["tailwind.config.js"],
+  ignorePatterns: ["tailwind.config.js", "postcss.config.cjs"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     tsconfigRootDir: __dirname,
